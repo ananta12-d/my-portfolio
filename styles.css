@@ -405,10 +405,7 @@ nav {
         position: fixed;
         top: 80px;
         right: -100%;
-        background-image: url('nav_bg.jpg');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
+        background-color: black;
         width: 100%;
         height: 100vh;
         display: flex;
