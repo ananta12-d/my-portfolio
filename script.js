@@ -8,4 +8,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     setInterval(randomGlow, 1000);
+
+    document.querySelectorAll(".nav-links li a").forEach(link => {
+        link.addEventListener("click", () => {
+            document.getElementById("check").checked = false;
+        });
+    });
 });
