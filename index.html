@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ananta Kishore Swain - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -19,9 +20,13 @@
 
     <!-- Navbar -->
     <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
         <h1 class="logo">Ananta Kishore Swain</h1>
         <ul class="nav-links">
-            <li><a href="#about">About</a></li>
+            <li><a class="active" href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#certifications">Certifications</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -30,6 +35,20 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+
+    <!-- <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">GFG</label>
+        <ul>
+            <li><a class="active" href="#">HTML</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">ReactJS</a></li>
+            <li><a href="#">NodeJS</a></li>
+        </ul>
+    </nav> -->
 
     <!-- Hero Section -->
     <section class="hero">
@@ -60,19 +79,19 @@
                 <th>Qualification</th>
                 <th>Institution</th>
                 <th>Year</th>
-                <th>Division</th>
+                <th class="hide">Division</th>
             </tr>
             <tr>
                 <td>10th & 12th</td>
                 <td>Saraswati Vidya Mandir, Nalco Nagar, Angul</td>
                 <td>2019 - 2022</td>
-                <td>1st Division</td>
+                <td class="hide">1st Division</td>
             </tr>
             <tr>
                 <td>BCA</td>
                 <td>Creative Techno College</td>
                 <td>2022 - Present</td>
-                <td>-</td>
+                <td class="hide">-</td>
             </tr>
         </table>
     </section>
