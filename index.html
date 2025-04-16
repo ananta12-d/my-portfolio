@@ -3,584 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ananta Kishore Swain | Futuristic Portfolio</title>
+    <title>My Colorful Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
 </head>
 <body>
-    <!-- Particle Background -->
-    <div id="particles-js"></div>
-    
-    <!-- Floating Navigation -->
-    <nav class="glass-nav">
-        <div class="nav-container">
-            <div class="logo" data-text="AKS">AKS</div>
-            <div class="nav-toggle">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+    <header>
+        <div class="container">
+            <h1 class="logo">ANANTA</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <ul class="nav-links">
-                <li><a href="#home" class="nav-link active"><span>Home</span></a></li>
-                <li><a href="#about" class="nav-link"><span>About</span></a></li>
-                <li><a href="#skills" class="nav-link"><span>Skills</span></a></li>
-                <li><a href="#projects" class="nav-link"><span>Projects</span></a></li>
-                <li><a href="#journey" class="nav-link"><span>Journey</span></a></li>
-                <li><a href="#contact" class="nav-link"><span>Contact</span></a></li>
-            </ul>
         </div>
-    </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h4 class="subtitle" data-aos="fade-up">Innovating the Future</h4>
-                <h1 class="title" data-aos="fade-up" data-aos-delay="100">
-                    <span class="title-gradient">ANANTA</span>
-                    <span class="title-gradient">KISHORE</span>
-                    <span class="title-gradient">SWAIN</span>
-                </h1>
-                <p class="hero-description" data-aos="fade-up" data-aos-delay="200">
-                    Flutter Developer | AI Enthusiast | Tech Innovator
-                </p>
-                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
-                    <a href="#projects" class="btn primary-btn pulse-effect">View My Work</a>
-                    <a href="#contact" class="btn secondary-btn">Let's Connect</a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="floating-cube"></div>
-                <div class="hero-image-container">
-                    <div class="hero-image"></div>
-                    <div class="tech-icons">
-                        <div class="icon flutter"><i class="fab fa-android"></i></div>
-                        <div class="icon web"><i class="fas fa-code"></i></div>
-                        <div class="icon ai"><i class="fas fa-brain"></i></div>
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>Hello! I'm Ananta, a passionate developer. I love creating things that live on the internet, whether it's websites, applications, or anything in between. My goal is to design and build digital experiences that are both beautiful and functional. I'm always eager to learn new technologies and take on challenging projects.</p>
+                        <p>When I'm not coding, you can find me exploring new places, trying out different cuisines, or engrossed in a good book. I believe that these experiences outside of work enrich my perspective and make me a better developer.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="self.jpg" alt="Ananta" width="400" height="400">
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="scroll-indicator">
-            <div class="mouse">
-                <div class="scroller"></div>
-            </div>
-            <span>Scroll Down</span>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="section-header" data-aos="fade-up">
-            <h2 class="section-title"><span class="highlight">01.</span> About Me</h2>
-            <div class="section-divider"></div>
-        </div>
-        <div class="about-content">
-            <div class="about-text" data-aos="fade-right">
-                <h3>Innovating at the Intersection of Technology and Creativity</h3>
-                <p>
-                    As a passionate technologist and creative problem solver, I thrive at the intersection of 
-                    cutting-edge development and user-centric design. My journey in tech began with a curiosity 
-                    about how things work, which has evolved into a dedication to building solutions that matter.
-                </p>
-                <p>
-                    Currently enhancing my skills as part of the "Technocrat" tech team, I've mastered frontend 
-                    technologies while expanding into mobile development with Flutter and exploring the fascinating 
-                    world of artificial intelligence.
-                </p>
-                <div class="about-highlights">
-                    <div class="highlight-card">
-                        <div class="highlight-icon"><i class="fas fa-rocket"></i></div>
-                        <h4>Fast Learner</h4>
-                        <p>Quickly adapt to new technologies and frameworks</p>
+        <section id="projects" class="section bg-gradient">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="c1.jpg" alt="Project 1" width="300" height="200">
+                        <h3>Project 1</h3>
+                        <p>A brief description of the project.  This project was a dive into new tech.</p>
+                        <a href="#" class="project-link">View Project</a>
                     </div>
-                    <div class="highlight-card">
-                        <div class="highlight-icon"><i class="fas fa-lightbulb"></i></div>
-                        <h4>Innovative Thinker</h4>
-                        <p>Creative solutions to complex problems</p>
+                    <div class="project-card">
+                        <img src="w1.jpeg" alt="Project 2" width="300" height="200">
+                        <h3>Project 2</h3>
+                        <p>Another interesting project I worked on. This one had some interesting challenges.</p>
+                        <a href="#" class="project-link">View Project</a>
                     </div>
-                    <div class="highlight-card">
-                        <div class="highlight-icon"><i class="fas fa-users"></i></div>
-                        <h4>Team Player</h4>
-                        <p>Collaborative approach to development</p>
+                    <div class="project-card">
+                        <img src="bg.jpg" alt="Project 3" width="300" height="200">
+                        <h3>Project 3</h3>
+                        <p>A description of my third project.  I learned a lot about design here.</p>
+                        <a href="#" class="project-link">View Project</a>
                     </div>
                 </div>
             </div>
-            <div class="about-image" data-aos="fade-left">
-                <div class="image-frame">
-                    <div class="image-overlay"></div>
-                </div>
-                <div class="tech-stack">
-                    <div class="stack-item" data-tooltip="Flutter">
-                        <img src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg" alt="Flutter">
-                    </div>
-                    <div class="stack-item" data-tooltip="Dart">
-                        <img src="https://cdn.worldvectorlogo.com/logos/dart-logo.svg" alt="Dart">
-                    </div>
-                    <div class="stack-item" data-tooltip="JavaScript">
-                        <img src="https://cdn.worldvectorlogo.com/logos/javascript.svg" alt="JavaScript">
-                    </div>
-                    <div class="stack-item" data-tooltip="AI">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section">
-        <div class="section-header" data-aos="fade-up">
-            <h2 class="section-title"><span class="highlight">02.</span> My Skills</h2>
-            <div class="section-divider"></div>
-        </div>
-        <div class="skills-container">
-            <div class="skills-categories">
-                <div class="category-tabs">
-                    <button class="tab-btn active" data-category="technical">Technical</button>
-                    <button class="tab-btn" data-category="soft">Soft Skills</button>
-                    <button class="tab-btn" data-category="tools">Tools</button>
-                </div>
-                <div class="skills-display">
-                    <div class="skills-category active" id="technical">
-                        <div class="skill-item" data-aos="fade-up">
-                            <div class="skill-info">
-                                <h4>Flutter Development</h4>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-level="85"></div>
-                                </div>
-                            </div>
-                            <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
-                        </div>
-                        <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
-                            <div class="skill-info">
-                                <h4>Frontend Web</h4>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-level="80"></div>
-                                </div>
-                            </div>
-                            <div class="skill-icon"><i class="fas fa-code"></i></div>
-                        </div>
-                        <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
-                            <div class="skill-info">
-                                <h4>UI/UX Design</h4>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-level="75"></div>
-                                </div>
-                            </div>
-                            <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
-                        </div>
-                        <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
-                            <div class="skill-info">
-                                <h4>AI Integration</h4>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-level="70"></div>
-                                </div>
-                            </div>
-                            <div class="skill-icon"><i class="fas fa-brain"></i></div>
-                        </div>
-                    </div>
-                    <div class="skills-category" id="soft">
-                        <div class="skill-item" data-aos="fade-up">
-                            <div class="skill-info">
-                                <h4>Leadership</h4>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-level="90"></div>
-                                </div>
-                            </div>
-                            <div class="skill-icon"><i class="fas fa-users"></i></div>
-                        </div>
-                        <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
-                            <div class="skill-info">
-                                <h4>Communication</h4>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-level="85"></div>
-                                </div>
-                            </div>
-                            <div class="skill-icon"><i class="fas fa-comments"></i></div>
-                        </div>
-                        <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
-                            <div class="skill-info">
-                                <h4>Problem Solving</h4>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-level="88"></div>
-                                </div>
-                            </div>
-                            <div class="skill-icon"><i class="fas fa-puzzle-piece"></i></div>
-                        </div>
-                    </div>
-                    <div class="skills-category" id="tools">
-                        <div class="skill-item" data-aos="fade-up">
-                            <div class="skill-info">
-                                <h4>Android Studio</h4>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-level="80"></div>
-                                </div>
-                            </div>
-                            <div class="skill-icon"><i class="fab fa-android"></i></div>
-                        </div>
-                        <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
-                            <div class="skill-info">
-                                <h4>VS Code</h4>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-level="90"></div>
-                                </div>
-                            </div>
-                            <div class="skill-icon"><i class="fas fa-code"></i></div>
-                        </div>
-                        <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
-                            <div class="skill-info">
-                                <h4>Git/GitHub</h4>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-level="75"></div>
-                                </div>
-                            </div>
-                            <div class="skill-icon"><i class="fab fa-github"></i></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="skills-visual">
-                <div class="rotating-cube">
-                    <div class="face front"><i class="fab fa-flutter"></i></div>
-                    <div class="face back"><i class="fab fa-js"></i></div>
-                    <div class="face right"><i class="fab fa-android"></i></div>
-                    <div class="face left"><i class="fab fa-html5"></i></div>
-                    <div class="face top"><i class="fab fa-css3-alt"></i></div>
-                    <div class="face bottom"><i class="fas fa-brain"></i></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
-        <div class="section-header" data-aos="fade-up">
-            <h2 class="section-title"><span class="highlight">03.</span> Featured Projects</h2>
-            <div class="section-divider"></div>
-        </div>
-        <div class="projects-container">
-            <div class="project-card" data-aos="fade-up">
-                <div class="project-image">
-                    <img src="w1.jpeg" alt="B-Safe Women Safety App">
-                    <div class="project-overlay">
-                        <div class="project-tech">
-                            <span>Flutter</span>
-                            <span>Firebase</span>
-                            <span>Google Maps API</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>B-Safe Women Safety App</h3>
-                    <p>A comprehensive safety application featuring SOS alerts, live location sharing, and emergency contacts, presented at TECHFEST 2.0 (2024).</p>
-                    <div class="project-features">
-                        <div class="feature">
-                            <i class="fas fa-bell"></i>
-                            <span>Instant SOS Alerts</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Live Location Tracking</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-newspaper"></i>
-                            <span>Safety News Feed</span>
-                        </div>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link demo">View Demo</a>
-                        <a href="#" class="project-link code">Case Study</a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="project-image">
-                    <img src="c1.jpg" alt="CyberVolt Banking App">
-                    <div class="project-overlay">
-                        <div class="project-tech">
-                            <span>Flutter</span>
-                            <span>Dart</span>
-                            <span>UI/UX Design</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>CyberVolt Banking App</h3>
-                    <p>A modern banking application prototype featuring animated UI, payment simulations, and transaction history with sleek visual design.</p>
-                    <div class="project-features">
-                        <div class="feature">
-                            <i class="fas fa-mobile-alt"></i>
-                            <span>Responsive Design</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-wallet"></i>
-                            <span>Payment Simulation</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-chart-line"></i>
-                            <span>Transaction Analytics</span>
-                        </div>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link demo">View Demo</a>
-                        <a href="#" class="project-link code">Case Study</a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
-                <div class="project-image">
-                    <div class="project-placeholder">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <div class="project-overlay">
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>NLP</span>
-                            <span>Machine Learning</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>AI Virtual Companion</h3>
-                    <p>An intelligent chatbot designed to provide companionship and conversation using natural language processing and machine learning techniques.</p>
-                    <div class="project-features">
-                        <div class="feature">
-                            <i class="fas fa-comments"></i>
-                            <span>Natural Conversations</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-heart"></i>
-                            <span>Emotional Intelligence</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-lightbulb"></i>
-                            <span>Context Awareness</span>
-                        </div>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link demo">View Demo</a>
-                        <a href="#" class="project-link code">Case Study</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="view-more" data-aos="fade-up">
-            <a href="#" class="btn outline-btn">View All Projects <i class="fas fa-arrow-right"></i></a>
-        </div>
-    </section>
-
-    <!-- Journey Section (Education & Experience) -->
-    <section id="journey" class="journey-section">
-        <div class="section-header" data-aos="fade-up">
-            <h2 class="section-title"><span class="highlight">04.</span> My Journey</h2>
-            <div class="section-divider"></div>
-        </div>
-        <div class="journey-container">
-            <div class="journey-tabs">
-                <button class="journey-tab active" data-tab="education">Education</button>
-                <button class="journey-tab" data-tab="experience">Experience</button>
-                <button class="journey-tab" data-tab="certifications">Certifications</button>
-            </div>
-            <div class="journey-content">
-                <div class="journey-tab-content active" id="education">
-                    <div class="timeline">
-                        <div class="timeline-item" data-aos="fade-up">
-                            <div class="timeline-date">2022 - Present</div>
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content glass-card">
-                                <h3>Bachelor of Computer Applications</h3>
-                                <h4>Creative Techno College</h4>
-                                <p>Currently pursuing my degree with focus on application development and AI technologies.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
-                            <div class="timeline-date">2019 - 2022</div>
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content glass-card">
-                                <h3>Higher Secondary Education</h3>
-                                <h4>Saraswati Vidya Mandir, Nalco Nagar, Angul</h4>
-                                <p>Completed 10th and 12th standard with 1st Division honors.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="journey-tab-content" id="experience">
-                    <div class="timeline">
-                        <div class="timeline-item" data-aos="fade-up">
-                            <div class="timeline-date">2023 - Present</div>
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content glass-card">
-                                <h3>Tech Team Member</h3>
-                                <h4>Technocrat</h4>
-                                <p>Collaborating on innovative projects, learning frontend technologies (HTML, CSS, JavaScript), and beginner-level PHP.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
-                            <div class="timeline-date">2023</div>
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content glass-card">
-                                <h3>Hybrid App Development Intern</h3>
-                                <h4>Static Consultancy</h4>
-                                <p>Completed a 3-month internship focused on hybrid mobile application development.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="journey-tab-content" id="certifications">
-                    <div class="certifications-grid">
-                        <div class="certification-card glass-card" data-aos="fade-up">
-                            <div class="certification-icon"><i class="fas fa-mobile-alt"></i></div>
-                            <h3>Hybrid App Development</h3>
-                            <p>Static Consultancy</p>
-                            <a href="hybrd app development_static.pdf" download class="download-btn">Download <i class="fas fa-download"></i></a>
-                        </div>
-                        <div class="certification-card glass-card" data-aos="fade-up" data-aos-delay="100">
-                            <div class="certification-icon"><i class="fas fa-code"></i></div>
-                            <h3>Frontend Development</h3>
-                            <p>Great Learning</p>
-                            <a href="frontend html.pdf" download class="download-btn">Download <i class="fas fa-download"></i></a>
-                        </div>
-                        <div class="certification-card glass-card" data-aos="fade-up" data-aos-delay="200">
-                            <div class="certification-icon"><i class="fas fa-shield-alt"></i></div>
-                            <h3>Network Security</h3>
-                            <p>Great Learning</p>
-                            <a href="network security.pdf" download class="download-btn">Download <i class="fas fa-download"></i></a>
-                        </div>
-                        <div class="certification-card glass-card" data-aos="fade-up" data-aos-delay="300">
-                            <div class="certification-icon"><i class="fas fa-brain"></i></div>
-                            <h3>NLP Theory Workshop</h3>
-                            <p>Creative Techno College</p>
-                            <a href="NLP THEORY WORKSHOP.pdf" download class="download-btn">Download <i class="fas fa-download"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="section-header" data-aos="fade-up">
-            <h2 class="section-title"><span class="highlight">05.</span> Get In Touch</h2>
-            <div class="section-divider"></div>
-        </div>
-        <div class="contact-container">
-            <div class="contact-info" data-aos="fade-right">
-                <h3>Let's Build Something Amazing Together</h3>
-                <p>I'm currently looking for new opportunities and would love to hear about your project. Whether you have a question or just want to say hi, I'll do my best to get back to you!</p>
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-                        <div class="contact-text">
-                            <h4>Email</h4>
-                            <a href="mailto:opbitu855@gmail.com">opbitu855@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
-                        <div class="contact-text">
-                            <h4>Location</h4>
-                            <p>Angul, Odisha, India</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/ananta-kishore-swain-6282472bb/" class="social-link" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://github.com/ananta12-d" class="social-link" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.instagram.com/fit.with_b2/" class="social-link" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#" class="social-link" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="contact-form" data-aos="fade-left">
-                <form id="contactForm">
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>I'd love to hear from you! Feel free to reach out for collaborations, project inquiries, or just a friendly chat.</p>
+                <form id="contact-form" class="contact-form">
                     <div class="form-group">
+                        <label for="name">Name</label>
                         <input type="text" id="name" name="name" required>
-                        <label for="name">Your Name</label>
                     </div>
                     <div class="form-group">
+                        <label for="email">Email</label>
                         <input type="email" id="email" name="email" required>
-                        <label for="email">Your Email</label>
                     </div>
                     <div class="form-group">
-                        <input type="text" id="subject" name="subject" required>
-                        <label for="subject">Subject</label>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
                     </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                        <label for="message">Your Message</label>
-                    </div>
-                    <button type="submit" class="btn primary-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <button type="submit">Send Message</button>
                 </form>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Resume CTA Section -->
-    <section class="resume-cta">
-        <div class="cta-container" data-aos="fade-up">
-            <h2>Want to see more details?</h2>
-            <p>Download my complete resume to learn more about my skills, experience, and projects.</p>
-            <a href="Ananta RESUME.pdf" download class="btn primary-btn">Download Resume <i class="fas fa-download"></i></a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <div class="logo">AKS</div>
-                <p>Innovating one line of code at a time</p>
-            </div>
-            <div class="footer-links">
-                <div class="link-group">
-                    <h4>Explore</h4>
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#projects">Projects</a>
-                </div>
-                <div class="link-group">
-                    <h4>Connect</h4>
-                    <a href="https://www.linkedin.com/in/ananta-kishore-swain-6282472bb/" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/ananta12-d" target="_blank">GitHub</a>
-                    <a href="https://www.instagram.com/fit.with_b2/" target="_blank">Instagram</a>
-                    <a href="mailto:opbitu855@gmail.com">Email</a>
-                </div>
-                <div class="link-group">
-                    <h4>Resources</h4>
-                    <a href="Ananta RESUME.pdf" download>Resume</a>
-                    <a href="#">Certifications</a>
-                    <a href="#">Case Studies</a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Ananta Kishore Swain. All rights reserved.</p>
-            <p>Designed & Developed with ❤️ by AKS</p>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ananta. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Back to Top Button -->
-    <a href="#home" class="back-to-top" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
